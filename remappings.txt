@@ -1,0 +1,7 @@
+chainlink-contract/=lib/chainlink-contract/src/
+@eth-optimism/=lib/chainlink-contract/node_modules/@eth-optimism/
+@openzeppelin/=lib/chainlink-contract/node_modules/@openzeppelin/
+@scroll-tech/=lib/chainlink-contract/node_modules/@scroll-tech/
+forge-std/=lib/forge-std/src/
+foundry-devops/=lib/foundry-devops/
+hardhat/=lib/chainlink-contract/node_modules/hardhat/
