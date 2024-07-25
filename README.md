@@ -60,6 +60,12 @@ inspect storage data
 cast storage [CONTRACTADDRESS] [SLOTNUMBER]
 ```
 
+# function sign
+
+````bash
+cast sig ["FUNCTIONANME()"]
+```casr
+
 # Makefile
 
 shortcut command in Makefile
@@ -67,3 +73,4 @@ shortcut command in Makefile
 install GnuWin to use it
 
 [GnuWin](https://gnuwin32.sourceforge.net/packages/make.htm)
+````
