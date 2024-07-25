@@ -59,3 +59,11 @@ inspect storage data
 ```bash
 cast storage [CONTRACTADDRESS] [SLOTNUMBER]
 ```
+
+# Makefile
+
+shortcut command in Makefile
+
+install GnuWin to use it
+
+[GnuWin](https://gnuwin32.sourceforge.net/packages/make.htm)

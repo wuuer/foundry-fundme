@@ -4,7 +4,7 @@ pragma solidity ^0.8.19;
 import {Script} from "forge-std/Script.sol";
 import {console} from "forge-std/console.sol";
 import {FundMe} from "../src/FundMe.sol";
-import {DeployFundMe} from "../../script/DeployFundMe.s.sol";
+import {DeployFundMe} from "./DeployFundMe.s.sol";
 
 import {DevOpsTools} from "foundry-devops/src/DevOpsTools.sol";
 
@@ -35,7 +35,7 @@ contract FundFundMe is Script {
         // );
         DeployFundMe deploy = new DeployFundMe();
         FundMe fundme = deploy.run();
-        fundFundMe(address(mostRecentlyDeployed));
+        fundFundMe(address(fundme));
     }
 }
 
