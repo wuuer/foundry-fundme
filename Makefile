@@ -8,7 +8,7 @@ snapshot:; forge snapshot
 
 # disable network proxy
 
-deploy:; forge script script/DeployFundMe.s.sol:DeployFundMe --rpc-url http://127.0.0.1:8545
+deploy:; forge script script/DeployFundMe.s.sol:DeployFundMe --rpc-url http://127.0.0.1:8545 --private-key=${PRIVATE_KEY}
 
 # disable network proxy
 deploy-sepolia:
