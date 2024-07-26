@@ -13,11 +13,11 @@ forge install Cyfrin/foundry-devops --no-commit
 # intereaction
 
 ```bash
-forge script ./script/Interactions.s.sol:FundFundMe --rpc-url [URL]
+forge script ./script/Interactions.s.sol:FundFundMe --rpc-url [URL] --broadcast
 ```
 
 ```bash
-forge script ./script/Interactions.s.sol:WithdrawFundMe --rpc-url [URL]
+forge script ./script/Interactions.s.sol:WithdrawFundMe --rpc-url [URL] --broadcast
 ```
 
 # test
@@ -61,6 +61,8 @@ cast storage [CONTRACTADDRESS] [SLOTNUMBER]
 ```
 
 # function sign
+
+https://openchain.xyz/signatures
 
 ````bash
 cast sig ["FUNCTIONANME()"]
